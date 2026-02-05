@@ -1,0 +1,17 @@
+{
+  "name": "prin-prinan-dev-28-jan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "beta" : "concurrently \"cd printer-server && npm run dev\" \"cd print-bot && npm run dev\" \"cd prinman && npm run build\" \"cd print-manager && php artisan serve --host 0.0.0.0\"",
+    "prod": "echo \"Production build not ready yet!\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
