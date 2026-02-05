@@ -1,0 +1,12 @@
+[submodule "prin-prinan-printer-server"]
+	path = print-server
+	url = https://github.com/Aran8276/prin-prinan-printer-server
+[submodule "prin-prinan-whatsapp-bot-server"]
+	path = print-bot
+	url = https://github.com/Aran8276/prin-prinan-whatsapp-bot-server
+[submodule "tefa-print-manager"]
+	path = print-manager
+	url = https://github.com/puzzlesremixed/tefa-print-manager
+[submodule "prin-prinan-color-detect-server"]
+	path = color-server
+	url = https://github.com/Aran8276/prin-prinan-color-detect-server
